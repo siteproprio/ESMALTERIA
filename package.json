@@ -1,0 +1,28 @@
+{
+  "name": "esmalteria",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/main.js",
+    "start-dev": "nodemon src/main.js -e ejs,js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siteproprio/ESMALTERIA.git"
+  },
+  "author": "Ruhtra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/siteproprio/ESMALTERIA/issues"
+  },
+  "homepage": "https://github.com/siteproprio/ESMALTERIA#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mongodb": "^4.0.1"
+  }
+}
